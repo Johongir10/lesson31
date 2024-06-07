@@ -1,0 +1,62 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.qizil{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+@media(max-width:1237px){
+    body{
+        background-color: yellow;
+
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .qizil{
+        width: 330px;
+        background-color: blue;
+    }
+}
+@media(max-width:1064px){
+    body{
+        background-color: red;
+
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .qizil{
+        width: 280px;
+        background-color: black;
+    }
+}
+@media(max-width:800px){
+    body{
+        background-color:aqua;
+
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .qizil{
+        width: 280px;
+        background-color: rgb(22, 241, 11);
+    }
+}
